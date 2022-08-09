@@ -1,0 +1,52 @@
+header {
+    background-image: url(../images/my_pohoto.jpg);
+    background-position: 70% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+body {
+    background-color: #292d33;
+    margin: 0;
+    padding: 0;
+}
+.my_profile {
+    position: relative;
+    font-family: sans-serif;
+    z-index: 4;
+    width: 400px;
+    padding: 30px;
+}
+.my_profile:before {
+    content: '';
+    position: absolute;
+    background-color: #292d33;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 20px;
+}
+.my_profile::after {
+    content: '';
+    position: absolute;
+    background-color: #fb9d06;
+    bottom: 50px;
+    left: 50px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    border-radius: 20px;
+}
+.my_name {
+    color: #ffffff;
+}
+.name {
+    color: #F5F0BB;
+}
+.about_me {
+    color: #fb9d06;
+    margin-left: 200px;
+}
+

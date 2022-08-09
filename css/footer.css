@@ -1,0 +1,39 @@
+footer {
+    margin-top: 150px;
+    padding: 0;
+    width: 100%; 
+    background: #292d33; /* Old browsers */
+    background: -moz-linear-gradient(top,  #292d33 -1%, #292d33 0%, #292d33 51%, #ffa909 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #292d33 -1%,#292d33 0%,#292d33 51%,#ffa909 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #292d33 -1%,#292d33 0%,#292d33 51%,#ffa909 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.my_img {
+    border-radius: 50%;
+    float: left;
+} 
+.images1 {
+    padding: 100px;
+    width: 60%;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.contacts {
+    font-size: 40px;
+    color: #F5F0BB;
+    margin: 100px 0 auto;
+    text-align: center;
+}
+.icon_contener {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-bottom: 100px;
+}
+.icon_linc {
+    margin-right: 50px;
+    margin-bottom: 15px;
+    height: 40px;
+}

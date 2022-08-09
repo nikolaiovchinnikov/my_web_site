@@ -1,0 +1,128 @@
+.trip {
+    color: #F5F0BB;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    width: 45%;
+    margin: 100px auto;
+    border-bottom: 20px solid rgb(255, 169, 9);
+    padding-bottom: 20px;
+}
+.contener0 {
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+}
+
+.mount{
+    background-image: url(../images/premium-icon-mountain-2283258.png);
+}
+.climbing {
+    background-image: url(../images/premium-icon-climbing-3294633.png);
+}
+.trekking {
+    background-image: url(../images/premium-icon-hiking-2283333.png);
+}
+.instruktor {
+    background-image: url(../images/premium-icon-carabiner-6103185.png);
+ }
+
+.user_choice_text {
+    left: 0;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    word-break: break-word;
+    line-height: 20px; 
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-size: 25px;
+}
+
+
+.flip-container {
+    width: 245px;
+    height: 300px;
+    perspective: 1000px;
+    }
+     
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+    }
+.flip-container:hover .flipper .front .user_choice_text {
+    visibility: hidden;
+    }
+
+.front {
+    backface-visibility: hidden;
+    width: 320px;
+    height: 0px;
+    }
+.flipper {
+    width: 100%;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    position: relative;
+    }
+.user_choice_text {
+    transition: 1ms;
+}
+/* .front, .back {
+    backface-visibility: hidden;
+     
+    position: absolute;
+    top: 0;
+    left: 0;
+    } */
+.front {
+    position: relative;
+    background-position: 50% 25%;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    z-index: 3;
+    background-color: rgb(255, 169, 9);
+    height: 300px;
+    width: 90%;
+    padding: 0 10px;
+    }
+
+.back_mount {
+    position: absolute;
+    background-color: #F5F0BB;
+    bottom: 0;
+    width: 240px;
+    height: 300px;
+    border-radius: 10%;
+}
+.lorem {
+    text-align: center;
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+.back_climbing {
+
+    position: absolute;
+    background-color: #F5F0BB;
+    bottom: 0;
+    width: 240px;
+    height: 300px;
+    border-radius: 10%;
+}
+.back_trekking {
+    position: absolute;
+    background-color: #F5F0BB;
+    bottom: 0;
+    width: 240px;
+    height: 300px;
+    border-radius: 10%;
+}
+.back_instruktor {
+    position: absolute;
+    background-color: #F5F0BB;
+    bottom: 0;
+    width: 240px;
+    height: 300px;
+    border-radius: 10%;
+}
